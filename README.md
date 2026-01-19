@@ -31,5 +31,5 @@ Dark-themed UI with emerald accents, glassmorphism effects, responsive design an
 - make sure node js is installed
 
 ## Project UI
-<img width="1660" height="1101" alt="Untitled-2026-01-19-0123" src="https://github.com/user-attachments/assets/50b43fb7-e3d5-4efd-9e4d-7f5f6f01d78b" />
+<img width="1660" height="1101" alt="Untitled-2026-01-19-0123" src="https://github.com/user-attachments/assets/7fa8f990-2d7c-49b8-bd1b-78932af59baf" />
 
