@@ -6,16 +6,16 @@ export const DATABASE_POOL = 'DATABASE_POOL';
 const databaseProvider = {
   provide: DATABASE_POOL,
   useValue: new Pool({
-    user: 'postgres',                  // your username
+    user: 'postgres',                
     host: 'localhost',
-    database: 'talentmatch',           // the database you created
-    password: 'postgres',    // ← CHANGE THIS to the password you set
+    database: 'talentmatch',        
+    password: 'postgres',   
     port: 5432,
   }),
 };
 
 @Module({
   providers: [databaseProvider],
-  exports: [databaseProvider],        // important so other files can use it
+  exports: [databaseProvider],        
 })
 export class DatabaseModule {}

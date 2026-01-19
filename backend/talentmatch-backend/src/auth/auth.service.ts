@@ -16,11 +16,9 @@ export class AuthService {
 
     const user = await this.usersService.create(name, email, password, role);
 
-    // Create JWT token
     const payload = { sub: user.id, email: user.email, role: user.role };
     const access_token = this.jwtService.sign(payload);
 
-    // Return token + safe user info (no password)
     return {
       access_token,
       user: {

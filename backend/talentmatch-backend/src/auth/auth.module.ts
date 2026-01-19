@@ -9,11 +9,11 @@ import { PassportModule } from '@nestjs/passport';
 
 @Module({
   imports: [
-    DatabaseModule,      // ← connects to postgres
+    DatabaseModule,     
     UsersModule,
     PassportModule.register({ defaultStrategy: 'jwt' }),
     JwtModule.register({
-      secret: 'change-this-secret-key-later',  // change this later!
+      secret: 'change-this-secret-key-later',  
       signOptions: { expiresIn: '1d' },
     }),
   ],
