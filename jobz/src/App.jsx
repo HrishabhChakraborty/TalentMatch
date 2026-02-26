@@ -5,8 +5,11 @@ import Navigation from './components/Navigation';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 import RecruiterSearch from './pages/RecruiterSearch';
+import RecruiterOnboarding from './pages/RecruiterOnboarding';
 import SavedCandidates from './pages/SavedCandidates';
+import RecruiterCandidateProfile from './pages/RecruiterCandidateProfile';
 import CandidateProfile from './pages/CandidateProfile';
+import CandidateOnboarding from './pages/CandidateOnboarding';
 import Visibility from './pages/Visibility';
 
 // Use .env variable (Vite prefix)
@@ -102,8 +105,11 @@ const App = () => {
             />
             <Routes>
               <Route path="/recruiter/search" element={<RecruiterSearch />} />
+              <Route path="/recruiter/onboarding" element={<RecruiterOnboarding />} />
               <Route path="/recruiter/saved" element={<SavedCandidates />} />
+              <Route path="/recruiter/candidates/:id" element={<RecruiterCandidateProfile />} />
               <Route path="/candidate/profile" element={<CandidateProfile />} />
+              <Route path="/candidate/onboarding" element={<CandidateOnboarding />} />
               <Route path="/candidate/visibility" element={<Visibility />} />
               <Route
                 path="*"

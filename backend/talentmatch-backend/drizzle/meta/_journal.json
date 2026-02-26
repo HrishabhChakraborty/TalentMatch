@@ -1,0 +1,11 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {"idx": 0, "version": "7", "when": 1771354030475, "tag": "0000_slimy_adam_destine", "breakpoints": true},
+    {"idx": 1, "version": "7", "when": 1730000000000, "tag": "0001_candidate_profiles", "breakpoints": true},
+    {"idx": 2, "version": "7", "when": 1730100000000, "tag": "0002_profile_builders", "breakpoints": true},
+    {"idx": 3, "version": "7", "when": 1730200000000, "tag": "0003_drop_canvas_template_export", "breakpoints": true},
+    {"idx": 4, "version": "7", "when": 1730300000000, "tag": "0004_candidate_profile_contact_fields", "breakpoints": true}
+  ]
+}
